@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Ubuntu', sans-serif;
+    src: url("../font/Ubuntu-Light.ttf") format("truetype"); 
+    font-style: normal;
+    font-weight: 300; 
+}
+
+@font-face {
+    font-family: 'Ubuntu', sans-serif; 
+    src: url("../font/Ubuntu-LightItalic.ttf") format("truetype"); 
+    font-style: normal;
+    font-weight: 300i; 
+}
+
+@font-face {
+    font-family: 'Ubuntu', sans-serif; 
+    src: url("../font/Ubuntu-Regular.ttf") format("truetype");
+    font-style: normal; 
+    font-weight: 400; 
+}
+
+@font-face {
+    font-family: 'Ubuntu', sans-serif;
+    src: url("../font/Ubuntu-Medium.ttf") format("truetype"); 
+    font-style: normal;
+    font-weight: 500; 
+}
+
+@font-face {
+    font-family: 'Ubuntu', sans-serif;
+    src: url("../font/Ubuntu-MediumItalic.ttf") format("truetype"); 
+    font-style: normal;
+    font-weight: 500i; 
+}
+
+@font-face {
+    font-family: 'Ubuntu', sans-serif;
+    src: url("../font/Ubuntu-Bold.ttf") format("truetype"); 
+    font-style: normal;
+    font-weight: 700; 
+}
+
+@font-face {
+    font-family: 'Ubuntu', sans-serif;
+    src: url("../font/Ubuntu-BoldItalic.ttf") format("truetype"); 
+    font-style: normal;
+    font-weight: 700i; 
+}
+
+body {
+    background: url("../img/wall/wall1.png") no-repeat center;
+    margin: 0;
+    background-attachment: fixed;
+}
+
+*, 
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+/* disable scrollbar */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* section */
+.section {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* main */
+.main {
+    display: flex;
+}
+
+.maininfo {
+    padding: 248px 88px 168px 145px;
+}
+
+.maininfo_title--text {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 46px;
+
+    color: #FFFFFF;
+}
+/* sidebar */
+.sidebar {
+    position: absolute;
+    width: 70px;
+    height: 100%;
+    background: #ACACAC;
+    mix-blend-mode: luminosity;
+}
+
+.sidebar:hover {
+    width: 300px;
+}
+
+.sidebar_items {
+    flex-wrap: wrap;
+}
+
+.sidebar_item--ico {
+    width: 50px;
+    height: 50px;
+    margin: 14px 0 0 10px;
+    cursor: pointer;
+}
+
+.sidebar_item--ico_app {
+    margin: 15px 0 80px 10px;
+}
+
+.sidebar_item--ico_app:last-child {
+    margin: 80px 0 10px 10px;
+}
+
+.sidebar_item--ico_title {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+
